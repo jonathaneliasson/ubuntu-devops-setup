@@ -1,0 +1,23 @@
+---
+
+# ZSH
+
+- name: zsh
+  
+  roles: 
+  - role: zsh
+    oh_my_zsh_theme: robbyrussell
+    oh_my_zsh_plugins:
+      - git
+
+  users:
+    - username: jonathan-eliasson
+      oh_my_zsh:
+        theme: robbyrussell
+        plugins:
+          - ansible
+          - docker
+          - docker-compose
+          - fzf
+          - git
+          - jsontools
